@@ -22,14 +22,14 @@ function cooking(foodsList) {
   return feast;
 }
 
-// 流程控制函数
+// 流程控制函数cd
 function startWork() {
   var success = prepare();
 
   if (success) {
     var foodsList = buyFoods();
     var feast = cooking(foodsList);
-  
+
     console.log('----酒席准备好了----');
 
     for (var i = 0; i < feast.length; i++) {

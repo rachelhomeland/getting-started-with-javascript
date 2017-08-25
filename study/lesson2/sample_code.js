@@ -15,14 +15,16 @@ var isMan = true;
 var student = false;
 var xinshengUserName = 'xiaoming';
 var wechat_user_name = 'xiaoming';
+
 var locaitonBase = '北京';
 var company = locaitonBase + '新生大学';
+//数组类型
 var myLikeColorsList = ['blue', 'green', 'black', 'white'];
 var myLikeFoods = ['刀削面', '拉面', '牛肉面', '杂酱面', '麻辣面', '烩面', '莜面'];
 
-//声明并定义对象变量
+//声明并定义【对象变量】
 var myJavaScriptLessionInfoObj = {
-  teacher: name,
+  teacher: name, //使用变量的一种方式
   teacherWeChat: wechat_user_name,
   title: 'JavaScript编程入门',
   beginTime: '2018/8/8',
