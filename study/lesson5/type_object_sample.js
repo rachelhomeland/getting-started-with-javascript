@@ -3,6 +3,7 @@ var config = {
   weight: 120,
   sex: 'man',
   age: 18
+
 }
 
 console.log('----- 小明的基本信息 -----');
@@ -49,3 +50,4 @@ var config2 = {
 
 // 执行对象config2的函数run
 config2.run();
+

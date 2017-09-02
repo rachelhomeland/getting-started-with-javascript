@@ -1,15 +1,8 @@
-function checkFlightSchedule(){
-    console.log('查航班');
+function foo() {
+    var y = "Bob"; // 提升变量y的申明
+    var x = 'Hello, ' + y;
 
-    var scheduleInfo = {
-        start: '8/23 8:00',
-        end: '8/23 10:30',
-        from: 'beijing',
-        to: 'hangzhou'
-    };
-    
-    return scheduleInfo.start;
+    alert(x);
+   
 }
-
-var startTime = checkFlightSchedule();
-console.log(startTime);
+foo();
